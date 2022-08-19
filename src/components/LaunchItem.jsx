@@ -4,6 +4,7 @@ import "dayjs/locale/es";
 import { Box, Flex, Text, Spacer, Tag, Icon, Button } from "@chakra-ui/react";
 
 export function LaunchItem(launch) {
+
     return (
         <Box bg="gray.100" p={4} m={4} borderRadius="lg">
             <Flex display="flex">

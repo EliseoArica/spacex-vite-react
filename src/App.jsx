@@ -14,6 +14,6 @@ export function App() {
         <Route path="/" element={<LaunchList />} />
         <Route path="launch/:launchId" element={<LaunchDetail />} />
       </Routes>
-    </>  
+    </>
   );
 }
